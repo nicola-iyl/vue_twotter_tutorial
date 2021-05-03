@@ -15,14 +15,24 @@
                     {{ twott.content }}
                 </div>
             </div>
+            <TwootItem
+                    v-for="twoot in user.twotters"
+                    :key="twoot.id"
+                    :username="user.username"
+                    :twoot="twoot"
+                    @favourite="toggleFavourite"
+            />
             <button @click="followUser">Follow</button>
         </div>
     </div>
 </template>
 
 <script>
+    import TwootItem from "./TwootItem"
     export default {
         name: "UserProfile",
+        components: {TwootItem},
+        componets: {TwootItem},
         data(){
             return{
                 followers: 0,
@@ -60,6 +70,9 @@
             followUser()
             {
                 this.followers++;
+            },
+            toggleFavourite( id ){
+                console.log(id);
             }
         },
         //viene eseguito la prima volta che il componente viene istanziato
