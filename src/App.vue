@@ -1,6 +1,13 @@
 <template>
     <div id="app">
-        <UserProfile />
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <UserProfile />
+                </div>
+            </div>
+        </div>
+
     </div>
 </template>
 

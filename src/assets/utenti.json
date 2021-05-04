@@ -1,0 +1,46 @@
+{
+  "utenti": [
+    {
+      "id": 1,
+      "username": "Nicola Tamburini",
+      "firstName": "Nicola",
+      "lastName": "Tamburini",
+      "email": "nicola.tamburini@fjstudio.com",
+      "isAdmin": true,
+      "twotters": [
+        { "id": 1, "content": "contenuto tweet uno"},
+        { "id": 2, "content": "contenuto tweet due"}
+      ]
+    },
+    {
+      "id": 1,
+      "username": "Pippo Caruso",
+      "firstName": "Pippo",
+      "lastName": "Caruso",
+      "email": "caruso@fjstudio.com",
+      "isAdmin": false,
+      "twotters": null
+    },
+    {
+      "id": 1,
+      "username": "Beppe mancuso",
+      "firstName": "Beppe",
+      "lastName": "Mancuso",
+      "email": "beppe@fjstudio.com",
+      "isAdmin": false,
+      "twotters": null
+    },
+    {
+      "id": 1,
+      "username": "Gino Strada",
+      "firstName": "Gino",
+      "lastName": "Strada",
+      "email": "gino@fjstudio.com",
+      "isAdmin": false,
+      "twotters": [
+        { "id": 1, "content": "lorem ipsum"},
+        { "id": 2, "content": "lorem ipsumlorem ipsumlorem ipsum"}
+      ]
+    }
+  ]
+}
